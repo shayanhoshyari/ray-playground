@@ -1,0 +1,56 @@
+# Top level dummy folders
+/.temp
+# build folder
+/build
+# Data downloaded
+/data
+# Venvs
+/.venv
+/.pyenv-*
+# Jenkins pip install's temp dir.
+/TMPDIR
+# mypy cache
+/.mypy_cache
+
+# Vscode env
+/.vscode/.env
+/.env
+
+# playground scripts
+/scratch
+
+# Intellij - Visual Studio Code recommended instead
+.idea
+*.iml
+
+# Docs build
+_build
+_assets
+
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+MANIFEST
+dist/
+eggs/
+.eggs/
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage/

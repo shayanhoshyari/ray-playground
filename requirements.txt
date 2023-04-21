@@ -1,0 +1,19 @@
+pip
+
+# Fix ray version for reproducibility
+ray[serve]==2.3.1
+
+
+uvicorn
+pyyaml
+httpx
+fastapi
+
+# Tooling
+mypy==1.1.1 # typechecker
+isort==5.12.0 # import sorter
+black==23.3.0 # code formatter
+autoflake==2.0.2 # unused import remover
+flake8==6.0.0 # linter
+flake8-bugbear==23.3.23 # extension for flake8 more checks
+Flake8-pyproject  # extension to read pyproject.toml for flake8
