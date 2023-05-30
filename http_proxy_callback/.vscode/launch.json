@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RAY: HTTP CALLBACK",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "main.py",
+            "justMyCode": false,
+            "env": {
+                // We can pass this here as stop gap, but ideally this should be passed where we call `serve.run()` as well.
+                "SERVE_HTTP_PROXY_CALLBACK_IMPORT_PATH" : "runtime_env.",
+                "TMPDIR" : "/mnt/localssd/shayans-workspace/tmpdir"
+            }
+        },
+    ]
+}

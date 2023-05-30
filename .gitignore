@@ -5,7 +5,7 @@
 # Data downloaded
 /data
 # Venvs
-/.venv
+.venv
 /.pyenv-*
 # Jenkins pip install's temp dir.
 /TMPDIR
