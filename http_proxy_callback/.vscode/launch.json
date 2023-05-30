@@ -13,8 +13,7 @@
             "justMyCode": false,
             "env": {
                 // We can pass this here as stop gap, but ideally this should be passed where we call `serve.run()` as well.
-                "SERVE_HTTP_PROXY_CALLBACK_IMPORT_PATH" : "runtime_env.",
-                "TMPDIR" : "/mnt/localssd/shayans-workspace/tmpdir"
+                "SERVE_HTTP_PROXY_CALLBACK_IMPORT_PATH" : "runtime_env.http_proxy_callback.proxy_callback",
             }
         },
     ]
