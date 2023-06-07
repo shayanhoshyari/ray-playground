@@ -9,6 +9,9 @@ import pydantic
 
 logger = logging.getLogger(__name__)
 
+PYDEV_CONFIG_KEY = "COLLIGO_PYDEV_CONFIG"
+
+
 class PydevConfig(pydantic.BaseModel):
     sys_path: str
     client: str
